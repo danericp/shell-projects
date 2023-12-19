@@ -187,9 +187,9 @@ function_gen_css ${FILE_HTML}
 cat<<EOML>>${FILE_HTML}
 </head>
 <body>
-<font style="font-family:Verdana;font-size:15px;color:#ff9900;font-style:bold;"> SQL </font><font> | </font>
-<font style="font-family:Verdana;font-size:15px;color:#ff9900;"> Oracle </font><br>
-<font face=verdana size=1 color=#153E7E> ${ARG_SUB} </font><br>
+<font style="font-family:Courier;font-size:15px;color:#333333;font-style:bold;"> SQL </font><font> | </font>
+<font style="font-family:Courier;font-size:15px;color:#333333;"> Oracle </font><br>
+<font face=Courier size=1 color=#333333> ${ARG_SUB} </font><br>
 <hr><!--br-->
 `cat ${ARG_REP}`
 </body>
